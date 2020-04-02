@@ -6,6 +6,8 @@
 #include "vtkImageData.h"
 #include "vtkDICOMImageReader.h"
 #include "vtkImageResample.h"
+#include "vtkVolume.h"
+#include "vtkFixedPointVolumeRayCastMapper.h"
 #define VTI_FILETYPE 1
 #define MHA_FILETYPE 2;
 void PrintUsage();
@@ -169,7 +171,7 @@ int main(int argc, char** argv)
     
     //cout<<dim[2]<<endl;
     vtkImageResample *resample = vtkImageResample::New();
-    if (reductionFactor , 1.0) {
+    if (reductionFactor < 1.0) {
         resample->SetInputConnection(reader->GetOutputPort());
         resample->SetAxisMagnificationFactor(0,reductionFactor);
         resample->SetAxisMagnificationFactor(1,reductionFactor);
@@ -177,7 +179,27 @@ int main(int argc, char** argv)
     }
 
     //create Volume and mapper
+    vtkVolume* volume = vtkVolume::New();
+    vtkFixedPointVolumeRayCastMapper *mapper = vtkFixedPointVolumeRayCastMapper::New();
+    if (reductionFactor < 1.0) {
+        mapper->SetInputConnection(resample->GetOutputPort());
+    } else {
+        mapper->SetInputConnection(reader->GetOutputPort());
+    }
 
+    volume->SetMapper(mapper);
+
+    //Set default window size 
+    renWin->SetSize(600,600);
+    renWin->Render();
+    //Add Volume to the scene
+    renderer->AddVolume(volume);
+    renderer->ResetCamera();
+
+    // interact with data
+    renWin->Render();
+
+    iren->Start();
     return 0;
 }
 

@@ -5,6 +5,9 @@ CMakeFiles/R1.dir/RV.cpp.o
  /Users/letuananh/Desktop/GuiPrac/VolRedenring/R1/RV.cpp
  /usr/local/itkvtk/include/vtk-8.2/vtk3DWidget.h
  /usr/local/itkvtk/include/vtk-8.2/vtkABI.h
+ /usr/local/itkvtk/include/vtk-8.2/vtkAbstractMapper.h
+ /usr/local/itkvtk/include/vtk-8.2/vtkAbstractMapper3D.h
+ /usr/local/itkvtk/include/vtk-8.2/vtkAbstractVolumeMapper.h
  /usr/local/itkvtk/include/vtk-8.2/vtkActor.h
  /usr/local/itkvtk/include/vtk-8.2/vtkActorCollection.h
  /usr/local/itkvtk/include/vtk-8.2/vtkAlgorithm.h
@@ -25,12 +28,16 @@ CMakeFiles/R1.dir/RV.cpp.o
  /usr/local/itkvtk/include/vtk-8.2/vtkDebugLeaksManager.h
  /usr/local/itkvtk/include/vtk-8.2/vtkFiltersCoreModule.h
  /usr/local/itkvtk/include/vtk-8.2/vtkFiltersGeneralModule.h
+ /usr/local/itkvtk/include/vtk-8.2/vtkFixedPointVolumeRayCastMapper.h
  /usr/local/itkvtk/include/vtk-8.2/vtkIOImageModule.h
  /usr/local/itkvtk/include/vtk-8.2/vtkIOStream.h
  /usr/local/itkvtk/include/vtk-8.2/vtkIOStreamFwd.h
  /usr/local/itkvtk/include/vtk-8.2/vtkImageAlgorithm.h
  /usr/local/itkvtk/include/vtk-8.2/vtkImageData.h
  /usr/local/itkvtk/include/vtk-8.2/vtkImageReader2.h
+ /usr/local/itkvtk/include/vtk-8.2/vtkImageResample.h
+ /usr/local/itkvtk/include/vtk-8.2/vtkImageReslice.h
+ /usr/local/itkvtk/include/vtk-8.2/vtkImagingCoreModule.h
  /usr/local/itkvtk/include/vtk-8.2/vtkIndent.h
  /usr/local/itkvtk/include/vtk-8.2/vtkInteractionWidgetsModule.h
  /usr/local/itkvtk/include/vtk-8.2/vtkInteractorObserver.h
@@ -46,15 +53,18 @@ CMakeFiles/R1.dir/RV.cpp.o
  /usr/local/itkvtk/include/vtk-8.2/vtkRenderWindowInteractor.h
  /usr/local/itkvtk/include/vtk-8.2/vtkRenderer.h
  /usr/local/itkvtk/include/vtk-8.2/vtkRenderingCoreModule.h
+ /usr/local/itkvtk/include/vtk-8.2/vtkRenderingVolumeModule.h
  /usr/local/itkvtk/include/vtk-8.2/vtkSetGet.h
  /usr/local/itkvtk/include/vtk-8.2/vtkStructuredData.h
  /usr/local/itkvtk/include/vtk-8.2/vtkSystemIncludes.h
+ /usr/local/itkvtk/include/vtk-8.2/vtkThreadedImageAlgorithm.h
  /usr/local/itkvtk/include/vtk-8.2/vtkTimeStamp.h
  /usr/local/itkvtk/include/vtk-8.2/vtkType.h
  /usr/local/itkvtk/include/vtk-8.2/vtkVersionMacros.h
  /usr/local/itkvtk/include/vtk-8.2/vtkViewport.h
  /usr/local/itkvtk/include/vtk-8.2/vtkVolume.h
  /usr/local/itkvtk/include/vtk-8.2/vtkVolumeCollection.h
+ /usr/local/itkvtk/include/vtk-8.2/vtkVolumeMapper.h
  /usr/local/itkvtk/include/vtk-8.2/vtkWeakPointerBase.h
  /usr/local/itkvtk/include/vtk-8.2/vtkWin32Header.h
  /usr/local/itkvtk/include/vtk-8.2/vtkWindow.h

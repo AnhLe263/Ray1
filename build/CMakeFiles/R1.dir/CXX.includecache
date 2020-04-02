@@ -21,6 +21,12 @@ vtkImageData.h
 /Users/letuananh/Desktop/GuiPrac/VolRedenring/R1/vtkImageData.h
 vtkDICOMImageReader.h
 /Users/letuananh/Desktop/GuiPrac/VolRedenring/R1/vtkDICOMImageReader.h
+vtkImageResample.h
+/Users/letuananh/Desktop/GuiPrac/VolRedenring/R1/vtkImageResample.h
+vtkVolume.h
+/Users/letuananh/Desktop/GuiPrac/VolRedenring/R1/vtkVolume.h
+vtkFixedPointVolumeRayCastMapper.h
+/Users/letuananh/Desktop/GuiPrac/VolRedenring/R1/vtkFixedPointVolumeRayCastMapper.h
 
 /usr/local/itkvtk/include/vtk-8.2/vtk3DWidget.h
 vtkInteractionWidgetsModule.h
@@ -29,6 +35,24 @@ vtkInteractorObserver.h
 /usr/local/itkvtk/include/vtk-8.2/vtkInteractorObserver.h
 
 /usr/local/itkvtk/include/vtk-8.2/vtkABI.h
+
+/usr/local/itkvtk/include/vtk-8.2/vtkAbstractMapper.h
+vtkRenderingCoreModule.h
+/usr/local/itkvtk/include/vtk-8.2/vtkRenderingCoreModule.h
+vtkAlgorithm.h
+/usr/local/itkvtk/include/vtk-8.2/vtkAlgorithm.h
+
+/usr/local/itkvtk/include/vtk-8.2/vtkAbstractMapper3D.h
+vtkRenderingCoreModule.h
+/usr/local/itkvtk/include/vtk-8.2/vtkRenderingCoreModule.h
+vtkAbstractMapper.h
+/usr/local/itkvtk/include/vtk-8.2/vtkAbstractMapper.h
+
+/usr/local/itkvtk/include/vtk-8.2/vtkAbstractVolumeMapper.h
+vtkRenderingCoreModule.h
+/usr/local/itkvtk/include/vtk-8.2/vtkRenderingCoreModule.h
+vtkAbstractMapper3D.h
+/usr/local/itkvtk/include/vtk-8.2/vtkAbstractMapper3D.h
 
 /usr/local/itkvtk/include/vtk-8.2/vtkActor.h
 vtkRenderingCoreModule.h
@@ -144,6 +168,12 @@ vtkAutoInit.h
 vtkFiltersCoreModule.h
 /usr/local/itkvtk/include/vtk-8.2/vtkFiltersCoreModule.h
 
+/usr/local/itkvtk/include/vtk-8.2/vtkFixedPointVolumeRayCastMapper.h
+vtkRenderingVolumeModule.h
+/usr/local/itkvtk/include/vtk-8.2/vtkRenderingVolumeModule.h
+vtkVolumeMapper.h
+/usr/local/itkvtk/include/vtk-8.2/vtkVolumeMapper.h
+
 /usr/local/itkvtk/include/vtk-8.2/vtkIOImageModule.h
 vtkAutoInit.h
 /usr/local/itkvtk/include/vtk-8.2/vtkAutoInit.h
@@ -183,6 +213,20 @@ vtkIOImageModule.h
 /usr/local/itkvtk/include/vtk-8.2/vtkIOImageModule.h
 vtkImageAlgorithm.h
 /usr/local/itkvtk/include/vtk-8.2/vtkImageAlgorithm.h
+
+/usr/local/itkvtk/include/vtk-8.2/vtkImageResample.h
+vtkImagingCoreModule.h
+/usr/local/itkvtk/include/vtk-8.2/vtkImagingCoreModule.h
+vtkImageReslice.h
+/usr/local/itkvtk/include/vtk-8.2/vtkImageReslice.h
+
+/usr/local/itkvtk/include/vtk-8.2/vtkImageReslice.h
+vtkImagingCoreModule.h
+/usr/local/itkvtk/include/vtk-8.2/vtkImagingCoreModule.h
+vtkThreadedImageAlgorithm.h
+/usr/local/itkvtk/include/vtk-8.2/vtkThreadedImageAlgorithm.h
+
+/usr/local/itkvtk/include/vtk-8.2/vtkImagingCoreModule.h
 
 /usr/local/itkvtk/include/vtk-8.2/vtkIndent.h
 vtkCommonCoreModule.h
@@ -288,6 +332,12 @@ vtkFiltersCoreModule.h
 vtkAutoInit.h
 /usr/local/itkvtk/include/vtk-8.2/vtkAutoInit.h
 
+/usr/local/itkvtk/include/vtk-8.2/vtkRenderingVolumeModule.h
+vtkRenderingCoreModule.h
+/usr/local/itkvtk/include/vtk-8.2/vtkRenderingCoreModule.h
+vtkAutoInit.h
+/usr/local/itkvtk/include/vtk-8.2/vtkAutoInit.h
+
 /usr/local/itkvtk/include/vtk-8.2/vtkSetGet.h
 vtkCommonCoreModule.h
 /usr/local/itkvtk/include/vtk-8.2/vtkCommonCoreModule.h
@@ -330,6 +380,12 @@ mem.h
 search.h
 -
 
+/usr/local/itkvtk/include/vtk-8.2/vtkThreadedImageAlgorithm.h
+vtkCommonExecutionModelModule.h
+/usr/local/itkvtk/include/vtk-8.2/vtkCommonExecutionModelModule.h
+vtkImageAlgorithm.h
+/usr/local/itkvtk/include/vtk-8.2/vtkImageAlgorithm.h
+
 /usr/local/itkvtk/include/vtk-8.2/vtkTimeStamp.h
 vtkCommonCoreModule.h
 /usr/local/itkvtk/include/vtk-8.2/vtkCommonCoreModule.h
@@ -365,6 +421,12 @@ vtkPropCollection.h
 /usr/local/itkvtk/include/vtk-8.2/vtkPropCollection.h
 vtkVolume.h
 /usr/local/itkvtk/include/vtk-8.2/vtkVolume.h
+
+/usr/local/itkvtk/include/vtk-8.2/vtkVolumeMapper.h
+vtkRenderingVolumeModule.h
+/usr/local/itkvtk/include/vtk-8.2/vtkRenderingVolumeModule.h
+vtkAbstractVolumeMapper.h
+/usr/local/itkvtk/include/vtk-8.2/vtkAbstractVolumeMapper.h
 
 /usr/local/itkvtk/include/vtk-8.2/vtkWeakPointerBase.h
 vtkCommonCoreModule.h
