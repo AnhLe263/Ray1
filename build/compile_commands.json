@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/letuananh/Desktop/GuiPrac/VolRedenring/R1/build",
+  "command": "/usr/bin/clang++  -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -DvtkRenderingVolume_AUTOINIT=\"1(vtkRenderingVolumeOpenGL2)\" -isystem /usr/local/itkvtk/include/vtk-8.2    -g   -std=gnu++11 -o CMakeFiles/R1.dir/RV.cpp.o -c /Users/letuananh/Desktop/GuiPrac/VolRedenring/R1/RV.cpp",
+  "file": "/Users/letuananh/Desktop/GuiPrac/VolRedenring/R1/RV.cpp"
+}
+]
