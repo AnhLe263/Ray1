@@ -9,3 +9,5 @@ vtkInteractionWidgets
 vtkRenderingVolumeOpenGL2
 )
 
+include(${VTK_USE_FILE})
+
